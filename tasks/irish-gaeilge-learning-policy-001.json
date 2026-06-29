@@ -1,0 +1,35 @@
+{
+  "id": "irish-gaeilge-learning-policy-001",
+  "title": "Dialect-parity + standard policy and CEFR/TEG mapping document",
+  "project": "irish-gaeilge-learning",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["language-learning", "irish", "education", "linguistics", "policy"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "irish-gaeilge-learning builds a free, openly-licensed, CEFR/TEG-aligned course for learning Irish (Gaeilge), spoken and written, to support language revitalization. Irish has three living dialect groups (Munster, Connacht, Ulster) alongside An Caighdean Oifigiuil (the official written standard). A course must take a principled, documented stance before any content is authored, or it will implicitly privilege one dialect and alienate speaker communities. The project is medium risk (language accuracy + cultural fidelity); this foundational policy task is itself low risk (process/policy), but is reviewed by a native-speaker reviewer for accuracy of its dialect/standard claims.",
+  "objective": "Write the locked dialect-parity and written-standard policy and the CEFR-to-TEG level mapping, including a verbatim non-accreditation disclaimer, to govern all subsequent content authoring and review.",
+  "acceptanceCriteria": [
+    "States the dialect-parity rule: An Caighdean Oifigiuil for spelling/grammar; audio in all three dialect groups (Munster/Connacht/Ulster) with explicit labels; no dialect ranked as more correct",
+    "Defines how divergent dialect forms are surfaced without implying any form is an error",
+    "Includes a CEFR to TEG mapping table (A1/A2/B1 to the corresponding TEG bands)",
+    "Includes a verbatim non-accreditation disclaimer (aligned to CEFR / mapped to TEG; not an official TEG, Department of Education, or Foras na Gaeilge product; no certificate issued) to appear on every rendering",
+    "Reviewed and signed off by a qualified native/near-native Irish reviewer for accuracy of dialect/standard claims; reviewer COI declared",
+    "Document validates against repo docs conventions and is referenced by the content schema task"
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/irish-gaeilge-learning/PLAN.md",
+    "C:/code/elyos/CLAUDE.md",
+    "CEFR level descriptors / can-do statements",
+    "TEG (Teastas Eorpach na Gaeilge) level descriptors, Maynooth University",
+    "An Caighdean Oifigiuil (2017) reference"
+  ],
+  "output": "docs/policy/dialect-and-levels.md plus a CEFR-TEG mapping table, referenced by the content schema",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}
